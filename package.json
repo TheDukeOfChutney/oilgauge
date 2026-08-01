@@ -14,7 +14,7 @@
     "validate:artifact": "bash scripts/validate-artifact.sh",
     "lint": "bash scripts/sites-env.sh -- eslint . --ignore-pattern dist --ignore-pattern .next",
     "collect": "node collector/collect.mjs",
-    "test:collector": "node --test collector/extract.test.mjs",
+    "test:collector": "node --check collector/collect.mjs && node --check collector/extract.mjs && node --test collector/extract.test.mjs",
     "db:generate": "bash scripts/sites-env.sh -- drizzle-kit generate"
   },
   "dependencies": {
