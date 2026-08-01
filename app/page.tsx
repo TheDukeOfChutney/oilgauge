@@ -4,6 +4,7 @@ import { useEffect, useMemo, useState } from "react";
 
 type Offer = { brand:string; product:string; viscosity:string; oilType:string; specification:string; volumeLiters:number; containerLabel:string; retailer:string; seller:string; price:number; shipping:number; inStock:boolean; url:string; lastChecked:string };
 type OfferFeed = { generatedAt?:string|null; offers?:Offer[] };
+const FEED_URL = "https://raw.githubusercontent.com/TheDukeOfChutney/oilgauge/main/public/offers.json";
 
 function ageLabel(value:string) {
   const time = new Date(value).getTime();
@@ -27,7 +28,7 @@ export default function Home() {
   const [sort, setSort] = useState("unit");
 
   useEffect(() => {
-    fetch("/offers.json", { cache:"no-store" }).then((response) => {
+    fetch(`${FEED_URL}?t=${Date.now()}`, { cache:"no-store" }).then((response) => {
       if (!response.ok) throw new Error("feed unavailable");
       return response.json() as Promise<OfferFeed|Offer[]>;
     }).then((feed) => {
