@@ -5,7 +5,7 @@ import { extractOffer } from "./extract.mjs";
 const root=resolve(import.meta.dirname,"..");
 const products=JSON.parse(await readFile(resolve(root,"collector/products.json"),"utf8"));
 async function fetchProduct(seed){
-  const response=await fetch(seed.url,{redirect:"follow",headers:{accept:"text/html,application/xhtml+xml","accept-language":"en-US,en;q=0.9","user-agent":"OilGauge-MVP/0.1 (+low-frequency price comparison check)"},signal:AbortSignal.timeout(20000)});
+  const response=await fetch(seed.url,{redirect:"follow",headers:{accept:"text/html,application/xhtml+xml","accept-language":"en-US,en;q=0.9","user-agent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"},signal:AbortSignal.timeout(20000)});
   if(!response.ok) throw new Error(`HTTP ${response.status}`);
   return extractOffer(await response.text(),seed);
 }
