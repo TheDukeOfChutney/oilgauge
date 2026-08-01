@@ -1,4 +1,5 @@
 name: Collect motor-oil prices
+# Runs daily and whenever collector code or product seeds change.
 
 on:
   workflow_dispatch:
