@@ -11,7 +11,7 @@ async function fetchProduct(seed){
   try { return extractOffer(html,seed); }
   catch (error) {
     const title=html.match(/<title[^>]*>([^<]*)<\/title>/i)?.[1]?.trim().slice(0,120)||"none";
-    const diagnostics=`html=${html.length} nextData=${html.includes("__NEXT_DATA__")} jsonLd=${/application\\/ld\\+json/i.test(html)} challenge=${/captcha|robot or human|blocked request|verify your identity/i.test(html)} title=${title}`;
+    const diagnostics=`html=${html.length} nextData=${html.includes("__NEXT_DATA__")} jsonLd=${/application\/ld\+json/i.test(html)} challenge=${/captcha|robot or human|blocked request|verify your identity/i.test(html)} title=${title}`;
     throw new Error(`${error instanceof Error?error.message:String(error)} [${diagnostics}]`);
   }
 }
