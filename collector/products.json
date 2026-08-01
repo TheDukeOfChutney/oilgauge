@@ -1,0 +1,16 @@
+[
+  {
+    "enabled": false,
+    "url": "https://www.walmart.com/ip/REPLACE-WITH-A-PRODUCT-ID",
+    "retailer": "Walmart",
+    "seller": "Walmart",
+    "brand": "Example brand",
+    "product": "Example product line",
+    "viscosity": "5W-30",
+    "oilType": "Full synthetic",
+    "specification": "API SP / ILSAC GF-6A",
+    "volumeLiters": 4.7318,
+    "containerLabel": "5 qt jug",
+    "shipping": 0
+  }
+]
