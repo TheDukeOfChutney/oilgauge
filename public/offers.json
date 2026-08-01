@@ -1,22 +1,55 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-01T11:36:39.816Z",
-  "offers": [],
-  "errors": [
+  "generatedAt": "2026-08-01T15:35:08.965Z",
+  "offers": [
     {
+      "brand": "Pennzoil",
+      "product": "Full Synthetic",
+      "viscosity": "5W-30",
+      "oilType": "Full synthetic",
+      "specification": "API SP / ILSAC GF-6A",
+      "volumeLiters": 4.7318,
+      "containerLabel": "5 qt jug",
       "retailer": "Home Depot",
+      "seller": "Home Depot",
+      "price": 25.7,
+      "shipping": 0,
+      "inStock": true,
       "url": "https://www.homedepot.com/p/Pennzoil-Full-Synthetic-SAE-5W-30-Motor-Oil-5-qt-550058602/318718731",
-      "error": "HTTP 403"
+      "lastChecked": "2026-08-01T15:35:02.161Z"
     },
     {
+      "brand": "Pennzoil",
+      "product": "Platinum Full Synthetic",
+      "viscosity": "5W-30",
+      "oilType": "Full synthetic",
+      "specification": "API SP / ILSAC GF-6A",
+      "volumeLiters": 4.7318,
+      "containerLabel": "5 qt jug",
       "retailer": "Home Depot",
-      "url": "https://www.homedepot.com/p/Mobil-5-qt-Classic-5W-30-Advanced-Full-Synthetic-Motor-Oil-124317/315125432",
-      "error": "HTTP 403"
+      "seller": "Home Depot",
+      "price": 29.38,
+      "shipping": 0,
+      "inStock": true,
+      "url": "https://www.homedepot.com/p/Pennzoil-Platinum-SAE-5W-30-Full-Synthetic-Motor-Oil-5-Qt-550046126/300646438",
+      "lastChecked": "2026-08-01T15:35:04.405Z"
     },
     {
+      "brand": "Pennzoil",
+      "product": "Ultra Platinum Full Synthetic",
+      "viscosity": "5W-30",
+      "oilType": "Full synthetic",
+      "specification": "API SP / ILSAC GF-6A",
+      "volumeLiters": 4.7318,
+      "containerLabel": "5 qt jug",
       "retailer": "Home Depot",
-      "url": "https://www.homedepot.com/p/CASTROL-EDGE-5W-30-Advanced-Full-Synthetic-Motor-Oil-5-qt-1598B1/205159528",
-      "error": "HTTP 403"
+      "seller": "Home Depot",
+      "price": 35.62,
+      "shipping": 0,
+      "inStock": true,
+      "url": "https://www.homedepot.com/p/Pennzoil-Ultra-Platinum-5W30-Motor-Oil-5-Qt-550045201/341066064",
+      "lastChecked": "2026-08-01T15:35:07.365Z"
     }
-  ]
+  ],
+  "errors": []
 }

@@ -17,7 +17,13 @@ export function extractOffer(html, seed, checkedAt=new Date().toISOString()) {
   const walmartProduct=nextDataProduct(html);
   const walmartPrice=Number(walmartProduct?.priceInfo?.currentPrice?.price);
   const price=Number.isFinite(structuredPrice)&&structuredPrice>0?structuredPrice:walmartPrice;
-  if(!Number.isFinite(price)||price<=0) throw new Error("No valid Product offer found in structured data or retailer page state");
+  if(!Number.isFinite(price)||price<=0) {
+    const hasNullHomeDepotPrice=/"pricing\([^)]*\)":\{[^}]*"value":null/.test(html);
+    if(product&&hasNullHomeDepotPrice) {
+      throw new Error("Product is unavailable or unpriced for the current Home Depot store context");
+    }
+    throw new Error("No valid Product offer found in structured data or retailer page state");
+  }
 
   const availability=String(rawOffer?.availability??walmartProduct?.availabilityStatus??walmartProduct?.itemPageAvailabilityStatus??"");
   const seller=walmartProduct?.sellerDisplayName||rawOffer?.seller?.name||seed.seller||seed.retailer;

@@ -26,6 +26,14 @@ test("rejects pages without a verified positive price",()=>{
   assert.throws(()=>extractOffer(html,seed),/No valid Product offer/);
 });
 
+test("classifies Home Depot products with null store pricing as unavailable",()=>{
+  const html=`<script type="application/ld+json">{"@type":"Product","name":"Mobil 1","productID":"315125432"}</script><script>window.__APOLLO_STATE__={"pricing({\\"storeId\\":\\"8119\\"})":{"value":null,"original":null}}</script>`;
+  assert.throws(
+    ()=>extractOffer(html,{...seed,retailer:"Home Depot"}),
+    /unavailable or unpriced for the current Home Depot store context/
+  );
+});
+
 test("falls back to Walmart Next.js product state when JSON-LD omits offers",()=>{
   const state={props:{pageProps:{initialData:{data:{product:{name:"Test Oil",availabilityStatus:"IN_STOCK",sellerDisplayName:"Walmart.com",priceInfo:{currentPrice:{price:31.97}}}}}}}};
   const html=`<script type="application/ld+json">{"@type":"Product","name":"Test Oil"}</script><script id="__NEXT_DATA__" type="application/json">${JSON.stringify(state)}</script>`;
