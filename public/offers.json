@@ -1,32 +1,32 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-01T03:15:28.497Z",
+  "generatedAt": "2026-08-01T03:16:57.792Z",
   "offers": [],
   "errors": [
     {
       "retailer": "Walmart",
       "url": "https://www.walmart.com/ip/Mobil-1-Advanced-Full-Synthetic-Motor-Oil-5W-30-5-Quart/17034372",
-      "error": "No valid Product offer found in structured data"
+      "error": "No valid Product offer found in structured data or retailer page state"
     },
     {
       "retailer": "Walmart",
       "url": "https://www.walmart.com/ip/Mobil-1-Extended-Performance-Full-Synthetic-Motor-Oil-5W-30-5-Quart/17128876",
-      "error": "No valid Product offer found in structured data"
+      "error": "No valid Product offer found in structured data or retailer page state"
     },
     {
       "retailer": "Walmart",
       "url": "https://www.walmart.com/ip/Pennzoil-Platinum-Full-Synthetic-5W-30-Motor-Oil-5-Quart/139680614",
-      "error": "No valid Product offer found in structured data"
+      "error": "No valid Product offer found in structured data or retailer page state"
     },
     {
       "retailer": "Walmart",
       "url": "https://www.walmart.com/ip/Pennzoil-Ultra-Platinum-Full-Synthetic-5W-30-Motor-Oil-5-Quart/55291206",
-      "error": "No valid Product offer found in structured data"
+      "error": "No valid Product offer found in structured data or retailer page state"
     },
     {
       "retailer": "Walmart",
       "url": "https://www.walmart.com/ip/Valvoline-Advanced-Full-Synthetic-5W-30-Motor-Oil-5-QT/15125782",
-      "error": "No valid Product offer found in structured data"
+      "error": "No valid Product offer found in structured data or retailer page state"
     }
   ]
 }
