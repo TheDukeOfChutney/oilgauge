@@ -47,6 +47,8 @@ select:focus { border-color:var(--teal); box-shadow:0 0 0 3px rgba(0,127,131,.12
 .offer strong { font-size:15px; }
 .offer small { display:block; margin-top:7px; color:var(--muted); font-size:12px; font-weight:400; }
 .offer small b { display:inline-block; margin-left:8px; padding:3px 7px; color:white; background:var(--teal); border-radius:3px; font-size:10px; }
+.notice.warning { border-color:#e0b45c; background:#fff8e8; }
+.failedUpdate { color:#a65b00 !important; font-weight:700 !important; }
 .oilCell { display:flex; align-items:center; gap:15px; }
 .bottle { flex:none; width:44px; height:60px; display:grid; place-items:center; border-radius:5px 5px 8px 8px; color:white; background:linear-gradient(150deg,#48616d,#172d3b); border-top:9px solid #6e8189; font-weight:900; }
 .unit strong { color:var(--teal-dark); font-size:17px; }

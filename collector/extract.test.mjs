@@ -1,6 +1,7 @@
 import test from "node:test";
 import assert from "node:assert/strict";
 import { extractOffer } from "./extract.mjs";
+import { mergeCollection } from "./feed.mjs";
 
 const seed={url:"https://retailer.example/item",retailer:"Example",viscosity:"5W-30",oilType:"Full synthetic",specification:"API SQ / ILSAC GF-7A",volumeLiters:4.7318,containerLabel:"5 qt jug",shipping:0};
 
@@ -41,4 +42,17 @@ test("falls back to Walmart Next.js product state when JSON-LD omits offers",()=
   assert.equal(offer.price,31.97);
   assert.equal(offer.seller,"Walmart.com");
   assert.equal(offer.inStock,true);
+});
+
+test("retains last known good offers and exposes a failed refresh",()=>{
+  const attemptedAt="2026-08-01T16:00:00Z";
+  const oldOffer={...seed,product:"Previously verified oil",brand:"Pennzoil",price:25.70,lastChecked:"2026-07-31T12:00:00Z"};
+  const error={retailer:"Example",url:seed.url,error:"HTTP 403"};
+  const feed=mergeCollection({offers:[oldOffer]},[],[error],attemptedAt);
+  assert.equal(feed.offers.length,1);
+  assert.equal(feed.offers[0].price,25.70);
+  assert.equal(feed.offers[0].lastChecked,"2026-07-31T12:00:00Z");
+  assert.equal(feed.offers[0].refreshStatus,"failed");
+  assert.equal(feed.offers[0].lastError,"HTTP 403");
+  assert.deepEqual(feed.collection,{attemptedAt,succeeded:0,failed:1,retained:1,status:"failed"});
 });

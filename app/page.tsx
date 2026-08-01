@@ -2,8 +2,9 @@
 
 import { useEffect, useMemo, useState } from "react";
 
-type Offer = { brand:string; product:string; viscosity:string; oilType:string; specification:string; volumeLiters:number; containerLabel:string; retailer:string; seller:string; price:number; shipping:number; inStock:boolean; url:string; lastChecked:string };
-type OfferFeed = { generatedAt?:string|null; offers?:Offer[] };
+type Offer = { brand:string; product:string; viscosity:string; oilType:string; specification:string; volumeLiters:number; containerLabel:string; retailer:string; seller:string; price:number; shipping:number; inStock:boolean; url:string; lastChecked:string; refreshStatus?:"verified"|"failed"; lastAttemptAt?:string; lastError?:string };
+type CollectionStatus = { attemptedAt:string; succeeded:number; failed:number; retained:number; status:"success"|"partial"|"failed" };
+type OfferFeed = { generatedAt?:string|null; offers?:Offer[]; collection?:CollectionStatus };
 const FEED_URL = "https://raw.githubusercontent.com/TheDukeOfChutney/oilgauge/main/public/offers.json";
 
 function ageLabel(value:string) {
@@ -19,6 +20,7 @@ export default function Home() {
   const [offers, setOffers] = useState<Offer[]>([]);
   const [source, setSource] = useState<"loading"|"live"|"empty"|"error">("loading");
   const [generatedAt, setGeneratedAt] = useState("");
+  const [collection, setCollection] = useState<CollectionStatus|null>(null);
   const [viscosity, setViscosity] = useState("");
   const [oilType, setOilType] = useState("");
   const [specification, setSpecification] = useState("");
@@ -40,6 +42,7 @@ export default function Home() {
         setSpecification(next[0].specification);
       }
       setGeneratedAt(Array.isArray(feed) ? "" : (feed.generatedAt ?? ""));
+      setCollection(Array.isArray(feed) ? null : (feed.collection ?? null));
       setSource(next.length ? "live" : "empty");
     }).catch(() => setSource("error"));
   }, []);
@@ -64,7 +67,8 @@ export default function Home() {
         <button className="primary" disabled={!offers.length} onClick={()=>document.getElementById("results")?.scrollIntoView({behavior:"smooth"})}>Compare prices</button>
       </section>
       {source !== "live" && source !== "loading" && <div className="notice"><strong>{source === "empty" ? "No verified prices yet." : "The price feed could not be loaded."}</strong> {source === "empty" ? "The collector is installed but has not produced its first successful result. No sample prices are being substituted." : "Try again later; stale prices are not being presented as current."}</div>}
-      {source === "live" && generatedAt && <div className="feedTime">Price file generated {ageLabel(generatedAt)} · Verify the retailer checkout page.</div>}
+      {source === "live" && collection?.status !== "success" && <div className="notice warning"><strong>Latest price update {collection?.status === "failed" ? "failed" : "partially failed"}.</strong> Attempted {collection?.attemptedAt ? ageLabel(collection.attemptedAt) : "recently"}: {collection?.failed ?? 0} failed, {collection?.succeeded ?? 0} succeeded. Showing {collection?.retained ?? 0} last known good {collection?.retained === 1 ? "price" : "prices"}.</div>}
+      {source === "live" && generatedAt && <div className="feedTime">Latest collection attempted {ageLabel(generatedAt)} · Verify the retailer checkout page.</div>}
       <section className="resultsCard" id="results">
         <div className="resultsHead"><div><span className="listIcon">≡</span><strong>{results.length} compatible {results.length === 1 ? "offer" : "offers"}</strong></div><div className="filters">
           <label><span>Brand</span><select value={brand} onChange={(e)=>setBrand(e.target.value)}><option>All brands</option>{choices("brand").map((x)=><option key={x}>{x}</option>)}</select></label>
@@ -75,7 +79,7 @@ export default function Home() {
         <div className="table" role="table" aria-label="Motor oil offers"><div className="tableHeader" role="row"><span>Oil</span><span>Retailer</span><span>Container</span><span>Checkout</span><span>Price / L</span><span>Last checked</span><span /></div>
           {results.map((offer,index)=>{ const checkout=offer.price+offer.shipping; const unit=checkout/offer.volumeLiters; return <article className={`offer ${unit===best?"best":""}`} role="row" key={`${offer.retailer}-${offer.brand}-${index}`}>
             <div className="oilCell"><span className="bottle" aria-hidden="true">{offer.brand.slice(0,1)}</span><div><strong>{offer.brand} {offer.product}</strong><small>{offer.oilType}{unit===best&&<b>Best price</b>}</small></div></div>
-            <div><strong>{offer.retailer}</strong><small>Sold by {offer.seller}</small></div><div><strong>{offer.containerLabel||`${offer.volumeLiters} L`}</strong><small>{offer.volumeLiters.toFixed(2)} L</small></div><div><strong>${checkout.toFixed(2)}</strong>{offer.shipping>0&&<small>incl. ${offer.shipping.toFixed(2)} shipping</small>}</div><div className="unit"><strong>${unit.toFixed(2)}/L</strong></div><div><span>{ageLabel(offer.lastChecked)}</span></div><div><a className="deal" href={offer.url} target="_blank" rel="noreferrer">View deal <span>›</span></a></div>
+            <div><strong>{offer.retailer}</strong><small>Sold by {offer.seller}</small></div><div><strong>{offer.containerLabel||`${offer.volumeLiters} L`}</strong><small>{offer.volumeLiters.toFixed(2)} L</small></div><div><strong>${checkout.toFixed(2)}</strong>{offer.shipping>0&&<small>incl. ${offer.shipping.toFixed(2)} shipping</small>}</div><div className="unit"><strong>${unit.toFixed(2)}/L</strong></div><div><span>{ageLabel(offer.lastChecked)}</span>{offer.refreshStatus === "failed"&&<small className="failedUpdate" title={offer.lastError}>Update failed</small>}</div><div><a className="deal" href={offer.url} target="_blank" rel="noreferrer">View deal <span>›</span></a></div>
           </article>})}
           {!results.length&&<div className="empty"><strong>{source === "live" ? "No exact matches" : "No collected offers"}</strong><span>{source === "live" ? "Try different requirements or filters." : "Results will appear after the first successful scheduled collection."}</span></div>}
         </div>
