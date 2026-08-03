@@ -22,6 +22,15 @@ test("extracts Home Depot's numeric Product/Offer shape",()=>{
   assert.equal(offer.seller,"Home Depot");
 });
 
+test("derives oil metadata for discovered products",()=>{
+  const html=`<script type="application/ld+json">{"@type":"Product","name":"Castrol EDGE 5W-30 Advanced Full Synthetic Motor Oil 5-qt.","brand":{"name":"Castrol"},"offers":{"price":"27.98"}}</script>`;
+  const offer=extractOffer(html,{url:"https://www.homedepot.com/p/oil/123456789",retailer:"Home Depot",seller:"Home Depot",shipping:0});
+  assert.equal(offer.brand,"Castrol");
+  assert.equal(offer.viscosity,"5W-30");
+  assert.equal(offer.oilType,"Full synthetic");
+  assert.ok(Math.abs(offer.volumeLiters-4.73176473)<0.00001);
+});
+
 test("rejects pages without a verified positive price",()=>{
   const html=`<script type="application/ld+json">{"@type":"Product","name":"Oil","offers":{"@type":"Offer"}}</script>`;
   assert.throws(()=>extractOffer(html,seed),/No valid Product offer/);

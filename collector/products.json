@@ -1,44 +1,14 @@
-[
-  {
-    "enabled": true,
-    "url": "https://www.homedepot.com/p/Pennzoil-Full-Synthetic-SAE-5W-30-Motor-Oil-5-qt-550058602/318718731",
-    "retailer": "Home Depot",
-    "seller": "Home Depot",
-    "brand": "Pennzoil",
-    "product": "Full Synthetic",
-    "viscosity": "5W-30",
-    "oilType": "Full synthetic",
-    "specification": "API SP / ILSAC GF-6A",
-    "volumeLiters": 4.7318,
-    "containerLabel": "5 qt jug",
-    "shipping": 0
-  },
-  {
-    "enabled": true,
-    "url": "https://www.homedepot.com/p/Pennzoil-Platinum-SAE-5W-30-Full-Synthetic-Motor-Oil-5-Qt-550046126/300646438",
-    "retailer": "Home Depot",
-    "seller": "Home Depot",
-    "brand": "Pennzoil",
-    "product": "Platinum Full Synthetic",
-    "viscosity": "5W-30",
-    "oilType": "Full synthetic",
-    "specification": "API SP / ILSAC GF-6A",
-    "volumeLiters": 4.7318,
-    "containerLabel": "5 qt jug",
-    "shipping": 0
-  },
-  {
-    "enabled": true,
-    "url": "https://www.homedepot.com/p/Pennzoil-Ultra-Platinum-5W30-Motor-Oil-5-Qt-550045201/341066064",
-    "retailer": "Home Depot",
-    "seller": "Home Depot",
-    "brand": "Pennzoil",
-    "product": "Ultra Platinum Full Synthetic",
-    "viscosity": "5W-30",
-    "oilType": "Full synthetic",
-    "specification": "API SP / ILSAC GF-6A",
-    "volumeLiters": 4.7318,
-    "containerLabel": "5 qt jug",
-    "shipping": 0
-  }
-]
+{
+  "discoveries": [
+    {
+      "enabled": true,
+      "adapter": "home-depot-search",
+      "retailer": "Home Depot",
+      "seller": "Home Depot",
+      "searchUrl": "https://www.homedepot.com/b/Engine-Oil/N-5yc1vZ1z18t5z/Ntk-elasticplus/Ntt-motor%2Boil?NCNI-5&sortby=price",
+      "maxPages": 20,
+      "shipping": 0
+    }
+  ],
+  "products": []
+}

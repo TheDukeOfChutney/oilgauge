@@ -29,19 +29,19 @@ jobs:
           node-version: "22"
       - name: Test extractor
         run: npm run test:collector
-      - name: Collect configured products
+      - name: Discover and collect products
         id: collect
         continue-on-error: true
         run: npm run collect
       - name: Commit refreshed feed
         run: |
-          if git diff --quiet -- public/offers.json; then
+          if git diff --quiet -- public/offers.json public/discovery.json; then
             echo "No feed changes to commit"
             exit 0
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add public/offers.json
+          git add public/offers.json public/discovery.json
           git commit -m "chore: refresh verified oil offers"
           git push
       - name: Report collection failure
