@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-08-08T10:54:20.108Z",
+  "generatedAt": "2026-08-09T10:55:49.523Z",
   "offers": [
     {
       "brand": "Pennzoil",
@@ -18,7 +18,7 @@
       "url": "https://www.homedepot.com/p/Pennzoil-High-Mileage-SAE-10W-40-Synthetic-Blend-Motor-Oil-1-qt-550022829/204999677",
       "lastChecked": "2026-08-03T21:27:39.253Z",
       "refreshStatus": "failed",
-      "lastAttemptAt": "2026-08-08T10:54:20.108Z",
+      "lastAttemptAt": "2026-08-09T10:55:49.523Z",
       "lastError": "Discovery failed: HTTP 403"
     },
     {
@@ -37,7 +37,7 @@
       "url": "https://www.homedepot.com/p/Pennzoil-SAE-5W-30-Motor-Oil-1-Qt-550035091/204786785",
       "lastChecked": "2026-08-03T21:27:39.866Z",
       "refreshStatus": "failed",
-      "lastAttemptAt": "2026-08-08T10:54:20.108Z",
+      "lastAttemptAt": "2026-08-09T10:55:49.523Z",
       "lastError": "Discovery failed: HTTP 403"
     },
     {
@@ -56,7 +56,7 @@
       "url": "https://www.homedepot.com/p/Pennzoil-SAE-5W-20-Motor-Oil-1-Qt-550035002/204786784",
       "lastChecked": "2026-08-03T21:27:39.977Z",
       "refreshStatus": "failed",
-      "lastAttemptAt": "2026-08-08T10:54:20.108Z",
+      "lastAttemptAt": "2026-08-09T10:55:49.523Z",
       "lastError": "Discovery failed: HTTP 403"
     },
     {
@@ -75,7 +75,7 @@
       "url": "https://www.homedepot.com/p/Pennzoil-SAE-10W-30-Motor-Oil-1-qt-550035052/204786786",
       "lastChecked": "2026-08-03T21:27:40.245Z",
       "refreshStatus": "failed",
-      "lastAttemptAt": "2026-08-08T10:54:20.108Z",
+      "lastAttemptAt": "2026-08-09T10:55:49.523Z",
       "lastError": "Discovery failed: HTTP 403"
     },
     {
@@ -94,7 +94,7 @@
       "url": "https://www.homedepot.com/p/Pennzoil-High-Mileage-SAE-5W-20-Synthetic-Blend-Motor-Oil-1-qt-550022818/332895803",
       "lastChecked": "2026-08-03T21:27:40.663Z",
       "refreshStatus": "failed",
-      "lastAttemptAt": "2026-08-08T10:54:20.108Z",
+      "lastAttemptAt": "2026-08-09T10:55:49.523Z",
       "lastError": "Discovery failed: HTTP 403"
     },
     {
@@ -113,7 +113,7 @@
       "url": "https://www.homedepot.com/p/Pennzoil-High-Mileage-SAE-5W-30-Synthetic-Blend-Motor-Oil-1-Qt-550022838/204786790",
       "lastChecked": "2026-08-03T21:27:40.913Z",
       "refreshStatus": "failed",
-      "lastAttemptAt": "2026-08-08T10:54:20.108Z",
+      "lastAttemptAt": "2026-08-09T10:55:49.523Z",
       "lastError": "Discovery failed: HTTP 403"
     },
     {
@@ -132,7 +132,7 @@
       "url": "https://www.homedepot.com/p/Pennzoil-High-Mileage-SAE-10W-30-Synthetic-Blend-Motor-Oil-1-Qt-550022812/204786789",
       "lastChecked": "2026-08-03T21:27:40.958Z",
       "refreshStatus": "failed",
-      "lastAttemptAt": "2026-08-08T10:54:20.108Z",
+      "lastAttemptAt": "2026-08-09T10:55:49.523Z",
       "lastError": "Discovery failed: HTTP 403"
     },
     {
@@ -151,7 +151,7 @@
       "url": "https://www.homedepot.com/p/CASTROL-GTX-5W-30-Synthetic-Blend-Motor-Oil-1-qt-15A66C/205159571",
       "lastChecked": "2026-08-03T21:27:41.036Z",
       "refreshStatus": "failed",
-      "lastAttemptAt": "2026-08-08T10:54:20.108Z",
+      "lastAttemptAt": "2026-08-09T10:55:49.523Z",
       "lastError": "Discovery failed: HTTP 403"
     },
     {
@@ -170,7 +170,7 @@
       "url": "https://www.homedepot.com/p/Pennzoil-SAE-10W-40-Motor-Oil-1-Qt-550035160/204786787",
       "lastChecked": "2026-08-03T21:27:41.307Z",
       "refreshStatus": "failed",
-      "lastAttemptAt": "2026-08-08T10:54:20.108Z",
+      "lastAttemptAt": "2026-08-09T10:55:49.523Z",
       "lastError": "Discovery failed: HTTP 403"
     },
     {
@@ -189,7 +189,7 @@
       "url": "https://www.homedepot.com/p/Pennzoil-SAE-30-Motor-Oil-1-qt-550034991/206344313",
       "lastChecked": "2026-08-03T21:27:41.668Z",
       "refreshStatus": "failed",
-      "lastAttemptAt": "2026-08-08T10:54:20.108Z",
+      "lastAttemptAt": "2026-08-09T10:55:49.523Z",
       "lastError": "Discovery failed: HTTP 403"
     },
     {
@@ -208,7 +208,7 @@
       "url": "https://www.homedepot.com/p/Pennzoil-Full-Synthetic-High-Mileage-SAE-5W-20-Motor-Oil-1-qt-550069991/332895822",
       "lastChecked": "2026-08-03T21:27:41.768Z",
       "refreshStatus": "failed",
-      "lastAttemptAt": "2026-08-08T10:54:20.108Z",
+      "lastAttemptAt": "2026-08-09T10:55:49.523Z",
       "lastError": "Discovery failed: HTTP 403"
     },
     {
@@ -227,7 +227,7 @@
       "url": "https://www.homedepot.com/p/CASTROL-GTX-High-Mileage-5W-30-Synthetic-Blend-Motor-Oil-1-qt-149D6A/205159610",
       "lastChecked": "2026-08-03T21:27:42.175Z",
       "refreshStatus": "failed",
-      "lastAttemptAt": "2026-08-08T10:54:20.108Z",
+      "lastAttemptAt": "2026-08-09T10:55:49.523Z",
       "lastError": "Discovery failed: HTTP 403"
     },
     {
@@ -246,7 +246,7 @@
       "url": "https://www.homedepot.com/p/Pennzoil-1-qt-Full-Synthetic-High-Mileage-Motor-Oil-5W30-550069993/332895783",
       "lastChecked": "2026-08-03T21:27:42.218Z",
       "refreshStatus": "failed",
-      "lastAttemptAt": "2026-08-08T10:54:20.108Z",
+      "lastAttemptAt": "2026-08-09T10:55:49.523Z",
       "lastError": "Discovery failed: HTTP 403"
     },
     {
@@ -265,7 +265,7 @@
       "url": "https://www.homedepot.com/p/Pennzoil-Full-Synthetic-SAE-0W-20-Motor-Oil-1-qt-550058594/332894694",
       "lastChecked": "2026-08-03T21:27:42.791Z",
       "refreshStatus": "failed",
-      "lastAttemptAt": "2026-08-08T10:54:20.108Z",
+      "lastAttemptAt": "2026-08-09T10:55:49.523Z",
       "lastError": "Discovery failed: HTTP 403"
     },
     {
@@ -284,7 +284,7 @@
       "url": "https://www.homedepot.com/p/Pennzoil-Full-Synthetic-SAE-5W-20-Motor-Oil-1-qt-550058597/332894706",
       "lastChecked": "2026-08-03T21:27:42.853Z",
       "refreshStatus": "failed",
-      "lastAttemptAt": "2026-08-08T10:54:20.108Z",
+      "lastAttemptAt": "2026-08-09T10:55:49.523Z",
       "lastError": "Discovery failed: HTTP 403"
     },
     {
@@ -303,7 +303,7 @@
       "url": "https://www.homedepot.com/p/Pennzoil-Full-Synthetic-SAE-5W-30-Motor-Oil-1-qt-550058600/332894719",
       "lastChecked": "2026-08-03T21:27:43.299Z",
       "refreshStatus": "failed",
-      "lastAttemptAt": "2026-08-08T10:54:20.108Z",
+      "lastAttemptAt": "2026-08-09T10:55:49.523Z",
       "lastError": "Discovery failed: HTTP 403"
     },
     {
@@ -322,7 +322,7 @@
       "url": "https://www.homedepot.com/p/Pennzoil-Platinum-SAE-5W-30-Full-Synthetic-Motor-Oil-1-Qt-550022689/204786793",
       "lastChecked": "2026-08-03T21:27:43.477Z",
       "refreshStatus": "failed",
-      "lastAttemptAt": "2026-08-08T10:54:20.108Z",
+      "lastAttemptAt": "2026-08-09T10:55:49.523Z",
       "lastError": "Discovery failed: HTTP 403"
     },
     {
@@ -341,7 +341,7 @@
       "url": "https://www.homedepot.com/p/Pennzoil-Platinum-SAE-0W-20-Full-Synthetic-Motor-Oil-1-Qt-550036541/204999679",
       "lastChecked": "2026-08-03T21:27:43.736Z",
       "refreshStatus": "failed",
-      "lastAttemptAt": "2026-08-08T10:54:20.108Z",
+      "lastAttemptAt": "2026-08-09T10:55:49.523Z",
       "lastError": "Discovery failed: HTTP 403"
     },
     {
@@ -360,7 +360,7 @@
       "url": "https://www.homedepot.com/p/CASTROL-EDGE-5W-20-Advanced-Full-Synthetic-Motor-Oil-1-qt-15D4DC/205159581",
       "lastChecked": "2026-08-03T21:27:45.068Z",
       "refreshStatus": "failed",
-      "lastAttemptAt": "2026-08-08T10:54:20.108Z",
+      "lastAttemptAt": "2026-08-09T10:55:49.523Z",
       "lastError": "Discovery failed: HTTP 403"
     },
     {
@@ -379,7 +379,7 @@
       "url": "https://www.homedepot.com/p/Pennzoil-Platinum-SAE-5W-20-Full-Synthetic-Motor-Oil-1-Qt-550022686/204999680",
       "lastChecked": "2026-08-03T21:27:45.664Z",
       "refreshStatus": "failed",
-      "lastAttemptAt": "2026-08-08T10:54:20.108Z",
+      "lastAttemptAt": "2026-08-09T10:55:49.523Z",
       "lastError": "Discovery failed: HTTP 403"
     },
     {
@@ -398,7 +398,7 @@
       "url": "https://www.homedepot.com/p/Pennzoil-SAE-30-Motor-Oil-1-qt-2-Pack-550034991/343417052",
       "lastChecked": "2026-08-03T21:27:47.218Z",
       "refreshStatus": "failed",
-      "lastAttemptAt": "2026-08-08T10:54:20.108Z",
+      "lastAttemptAt": "2026-08-09T10:55:49.523Z",
       "lastError": "Discovery failed: HTTP 403"
     },
     {
@@ -417,7 +417,7 @@
       "url": "https://www.homedepot.com/p/Pennzoil-High-Mileage-SAE-5W-30-Synthetic-Blend-Motor-Oil-1-qt-2-Pack-550022838/343417129",
       "lastChecked": "2026-08-03T21:27:47.779Z",
       "refreshStatus": "failed",
-      "lastAttemptAt": "2026-08-08T10:54:20.108Z",
+      "lastAttemptAt": "2026-08-09T10:55:49.523Z",
       "lastError": "Discovery failed: HTTP 403"
     },
     {
@@ -436,7 +436,7 @@
       "url": "https://www.homedepot.com/p/Pennzoil-SAE-5W-30-Motor-Oil-1-qt-2-Pack-550035091/343417091",
       "lastChecked": "2026-08-03T21:27:47.839Z",
       "refreshStatus": "failed",
-      "lastAttemptAt": "2026-08-08T10:54:20.108Z",
+      "lastAttemptAt": "2026-08-09T10:55:49.523Z",
       "lastError": "Discovery failed: HTTP 403"
     },
     {
@@ -455,7 +455,7 @@
       "url": "https://www.homedepot.com/p/Pennzoil-High-Mileage-SAE-10W-30-Synthetic-Blend-Motor-Oil-1-qt-2-Pack-550022812/343417189",
       "lastChecked": "2026-08-03T21:27:47.895Z",
       "refreshStatus": "failed",
-      "lastAttemptAt": "2026-08-08T10:54:20.108Z",
+      "lastAttemptAt": "2026-08-09T10:55:49.523Z",
       "lastError": "Discovery failed: HTTP 403"
     },
     {
@@ -474,7 +474,7 @@
       "url": "https://www.homedepot.com/p/Quaker-State-SAE-5W-20-Motor-Oil-5-qt-160-fl-oz-550044965/300646456",
       "lastChecked": "2026-08-03T21:27:48.491Z",
       "refreshStatus": "failed",
-      "lastAttemptAt": "2026-08-08T10:54:20.108Z",
+      "lastAttemptAt": "2026-08-09T10:55:49.523Z",
       "lastError": "Discovery failed: HTTP 403"
     },
     {
@@ -493,7 +493,7 @@
       "url": "https://www.homedepot.com/p/Pennzoil-Platinum-SAE-5W-20-Full-Synthetic-Motor-Oil-1-Qt-2-Pack-550022686/343417214",
       "lastChecked": "2026-08-03T21:27:48.554Z",
       "refreshStatus": "failed",
-      "lastAttemptAt": "2026-08-08T10:54:20.108Z",
+      "lastAttemptAt": "2026-08-09T10:55:49.523Z",
       "lastError": "Discovery failed: HTTP 403"
     },
     {
@@ -512,7 +512,7 @@
       "url": "https://www.homedepot.com/p/Pennzoil-Platinum-SAE-0W-20-Full-Synthetic-Motor-Oil-1-Qt-2-Pack-550036541/343417247",
       "lastChecked": "2026-08-03T21:27:49.337Z",
       "refreshStatus": "failed",
-      "lastAttemptAt": "2026-08-08T10:54:20.108Z",
+      "lastAttemptAt": "2026-08-09T10:55:49.523Z",
       "lastError": "Discovery failed: HTTP 403"
     },
     {
@@ -531,7 +531,7 @@
       "url": "https://www.homedepot.com/p/Shell-Rotella-T4-Triple-Protection-SAE-15W-40-Diesel-Motor-Oil-1-Gal-550045126/300387920",
       "lastChecked": "2026-08-03T21:27:49.427Z",
       "refreshStatus": "failed",
-      "lastAttemptAt": "2026-08-08T10:54:20.108Z",
+      "lastAttemptAt": "2026-08-09T10:55:49.523Z",
       "lastError": "Discovery failed: HTTP 403"
     },
     {
@@ -550,7 +550,7 @@
       "url": "https://www.homedepot.com/p/Pennzoil-Platinum-SAE-5W-30-Full-Synthetic-Motor-Oil-1-Qt-2-Pack-550022689/343416940",
       "lastChecked": "2026-08-03T21:27:49.445Z",
       "refreshStatus": "failed",
-      "lastAttemptAt": "2026-08-08T10:54:20.108Z",
+      "lastAttemptAt": "2026-08-09T10:55:49.523Z",
       "lastError": "Discovery failed: HTTP 403"
     },
     {
@@ -569,7 +569,7 @@
       "url": "https://www.homedepot.com/p/Pennzoil-Marine-Premium-Plus-2-Cycle-Synthetic-Blend-Oil-1-Gal-550045220/300711633",
       "lastChecked": "2026-08-03T21:27:49.483Z",
       "refreshStatus": "failed",
-      "lastAttemptAt": "2026-08-08T10:54:20.108Z",
+      "lastAttemptAt": "2026-08-09T10:55:49.523Z",
       "lastError": "Discovery failed: HTTP 403"
     },
     {
@@ -588,7 +588,7 @@
       "url": "https://www.homedepot.com/p/Pennzoil-SAE-10W-30-Motor-Oil-5-qt-550045214/300646552",
       "lastChecked": "2026-08-03T21:27:49.979Z",
       "refreshStatus": "failed",
-      "lastAttemptAt": "2026-08-08T10:54:20.108Z",
+      "lastAttemptAt": "2026-08-09T10:55:49.523Z",
       "lastError": "Discovery failed: HTTP 403"
     },
     {
@@ -607,7 +607,7 @@
       "url": "https://www.homedepot.com/p/BlueDEF-2-5-Gal-Blue-DEF-Platinum-DEG002/314609665",
       "lastChecked": "2026-08-03T21:27:50.113Z",
       "refreshStatus": "failed",
-      "lastAttemptAt": "2026-08-08T10:54:20.108Z",
+      "lastAttemptAt": "2026-08-09T10:55:49.523Z",
       "lastError": "Discovery failed: HTTP 403"
     },
     {
@@ -626,7 +626,7 @@
       "url": "https://www.homedepot.com/p/Pennzoil-High-Mileage-SAE-5W-30-Synthetic-Blend-Motor-Oil-5-Qt-550045218/300646538",
       "lastChecked": "2026-08-03T21:27:50.185Z",
       "refreshStatus": "failed",
-      "lastAttemptAt": "2026-08-08T10:54:20.108Z",
+      "lastAttemptAt": "2026-08-09T10:55:49.523Z",
       "lastError": "Discovery failed: HTTP 403"
     },
     {
@@ -645,7 +645,7 @@
       "url": "https://www.homedepot.com/p/Pennzoil-High-Mileage-SAE-10W-40-Synthetic-Blend-Motor-Oil-5-Qt-550045217/300646432",
       "lastChecked": "2026-08-03T21:27:50.610Z",
       "refreshStatus": "failed",
-      "lastAttemptAt": "2026-08-08T10:54:20.108Z",
+      "lastAttemptAt": "2026-08-09T10:55:49.523Z",
       "lastError": "Discovery failed: HTTP 403"
     },
     {
@@ -664,7 +664,7 @@
       "url": "https://www.homedepot.com/p/Pennzoil-SAE-5W-20-Motor-Oil-5-Qt-550045210/300646403",
       "lastChecked": "2026-08-03T21:27:50.818Z",
       "refreshStatus": "failed",
-      "lastAttemptAt": "2026-08-08T10:54:20.108Z",
+      "lastAttemptAt": "2026-08-09T10:55:49.523Z",
       "lastError": "Discovery failed: HTTP 403"
     },
     {
@@ -683,7 +683,7 @@
       "url": "https://www.homedepot.com/p/Pennzoil-High-Mileage-SAE-10W-30-Synthetic-Blend-Motor-Oil-5-Qt-550045205/300646422",
       "lastChecked": "2026-08-03T21:27:51.179Z",
       "refreshStatus": "failed",
-      "lastAttemptAt": "2026-08-08T10:54:20.108Z",
+      "lastAttemptAt": "2026-08-09T10:55:49.523Z",
       "lastError": "Discovery failed: HTTP 403"
     },
     {
@@ -702,7 +702,7 @@
       "url": "https://www.homedepot.com/p/Pennzoil-SAE-5W-30-Motor-Oil-5-Qt-550045208/300646543",
       "lastChecked": "2026-08-03T21:27:51.314Z",
       "refreshStatus": "failed",
-      "lastAttemptAt": "2026-08-08T10:54:20.108Z",
+      "lastAttemptAt": "2026-08-09T10:55:49.523Z",
       "lastError": "Discovery failed: HTTP 403"
     },
     {
@@ -721,7 +721,7 @@
       "url": "https://www.homedepot.com/p/Shell-Rotella-1-Gal-Rotella-T5-15W40-550045348/300388000",
       "lastChecked": "2026-08-03T21:27:51.600Z",
       "refreshStatus": "failed",
-      "lastAttemptAt": "2026-08-08T10:54:20.108Z",
+      "lastAttemptAt": "2026-08-09T10:55:49.523Z",
       "lastError": "Discovery failed: HTTP 403"
     },
     {
@@ -740,7 +740,7 @@
       "url": "https://www.homedepot.com/p/Pennzoil-High-Mileage-SAE-5W-20-Synthetic-Blend-Motor-Oil-5-Qt-550045203/318718715",
       "lastChecked": "2026-08-03T21:27:51.862Z",
       "refreshStatus": "failed",
-      "lastAttemptAt": "2026-08-08T10:54:20.108Z",
+      "lastAttemptAt": "2026-08-09T10:55:49.523Z",
       "lastError": "Discovery failed: HTTP 403"
     },
     {
@@ -759,7 +759,7 @@
       "url": "https://www.homedepot.com/p/Pennzoil-Full-Synthetic-SAE-5W-20-Motor-Oil-5-qt-550058599/318718695",
       "lastChecked": "2026-08-03T21:27:52.630Z",
       "refreshStatus": "failed",
-      "lastAttemptAt": "2026-08-08T10:54:20.108Z",
+      "lastAttemptAt": "2026-08-09T10:55:49.523Z",
       "lastError": "Discovery failed: HTTP 403"
     },
     {
@@ -778,7 +778,7 @@
       "url": "https://www.homedepot.com/p/CASTROL-GTX-High-Mileage-5W-30-Synthetic-Blend-Motor-Oil-5-qt-15980E/205447611",
       "lastChecked": "2026-08-03T21:27:52.719Z",
       "refreshStatus": "failed",
-      "lastAttemptAt": "2026-08-08T10:54:20.108Z",
+      "lastAttemptAt": "2026-08-09T10:55:49.523Z",
       "lastError": "Discovery failed: HTTP 403"
     },
     {
@@ -797,7 +797,7 @@
       "url": "https://www.homedepot.com/p/Pennzoil-Full-Synthetic-High-Mileage-SAE-5W-30-Motor-Oil-5-qt-550069992/329967042",
       "lastChecked": "2026-08-03T21:27:52.979Z",
       "refreshStatus": "failed",
-      "lastAttemptAt": "2026-08-08T10:54:20.108Z",
+      "lastAttemptAt": "2026-08-09T10:55:49.523Z",
       "lastError": "Discovery failed: HTTP 403"
     },
     {
@@ -816,7 +816,7 @@
       "url": "https://www.homedepot.com/p/Pennzoil-SAE-10W-40-Motor-Oil-5-Qt-550045213/300646463",
       "lastChecked": "2026-08-03T21:27:53.002Z",
       "refreshStatus": "failed",
-      "lastAttemptAt": "2026-08-08T10:54:20.108Z",
+      "lastAttemptAt": "2026-08-09T10:55:49.523Z",
       "lastError": "Discovery failed: HTTP 403"
     },
     {
@@ -835,7 +835,7 @@
       "url": "https://www.homedepot.com/p/Pennzoil-Full-Synthetic-SAE-5W-30-Motor-Oil-5-qt-550058602/318718731",
       "lastChecked": "2026-08-03T21:27:53.378Z",
       "refreshStatus": "failed",
-      "lastAttemptAt": "2026-08-08T10:54:20.108Z",
+      "lastAttemptAt": "2026-08-09T10:55:49.523Z",
       "lastError": "Discovery failed: HTTP 403"
     },
     {
@@ -854,7 +854,7 @@
       "url": "https://www.homedepot.com/p/Pennzoil-Full-Synthetic-SAE-0W-20-Motor-Oil-5-qt-550058596/318718691",
       "lastChecked": "2026-08-03T21:27:53.459Z",
       "refreshStatus": "failed",
-      "lastAttemptAt": "2026-08-08T10:54:20.108Z",
+      "lastAttemptAt": "2026-08-09T10:55:49.523Z",
       "lastError": "Discovery failed: HTTP 403"
     },
     {
@@ -873,7 +873,7 @@
       "url": "https://www.homedepot.com/p/Pennzoil-Full-Synthetic-High-Mileage-SAE-5W-20-Motor-Oil-5-qt-550069990/329967034",
       "lastChecked": "2026-08-03T21:27:53.631Z",
       "refreshStatus": "failed",
-      "lastAttemptAt": "2026-08-08T10:54:20.108Z",
+      "lastAttemptAt": "2026-08-09T10:55:49.523Z",
       "lastError": "Discovery failed: HTTP 403"
     },
     {
@@ -892,7 +892,7 @@
       "url": "https://www.homedepot.com/p/Pennzoil-Full-Synthetic-High-Mileage-SAE-0W-20-Motor-Oil-5-qt-550069988/330603111",
       "lastChecked": "2026-08-03T21:27:54.302Z",
       "refreshStatus": "failed",
-      "lastAttemptAt": "2026-08-08T10:54:20.108Z",
+      "lastAttemptAt": "2026-08-09T10:55:49.523Z",
       "lastError": "Discovery failed: HTTP 403"
     },
     {
@@ -911,7 +911,7 @@
       "url": "https://www.homedepot.com/p/Shell-Rotella-T6-Full-Synthetic-SAE-5W-40-Diesel-Motor-Oil-1-Gal-550045347/300388016",
       "lastChecked": "2026-08-03T21:27:54.310Z",
       "refreshStatus": "failed",
-      "lastAttemptAt": "2026-08-08T10:54:20.108Z",
+      "lastAttemptAt": "2026-08-09T10:55:49.523Z",
       "lastError": "Discovery failed: HTTP 403"
     },
     {
@@ -930,7 +930,7 @@
       "url": "https://www.homedepot.com/p/CASTROL-GTX-High-Mileage-10W-30-Synthetic-Blend-Motor-Oil-5-qt-1597B0/205447612",
       "lastChecked": "2026-08-03T21:27:54.638Z",
       "refreshStatus": "failed",
-      "lastAttemptAt": "2026-08-08T10:54:20.108Z",
+      "lastAttemptAt": "2026-08-09T10:55:49.523Z",
       "lastError": "Discovery failed: HTTP 403"
     },
     {
@@ -949,7 +949,7 @@
       "url": "https://www.homedepot.com/p/Pennzoil-Platinum-High-Mileage-SAE-10W-30-Full-Synthetic-Motor-Oil-5-Qt-550045274/300977550",
       "lastChecked": "2026-08-03T21:27:54.941Z",
       "refreshStatus": "failed",
-      "lastAttemptAt": "2026-08-08T10:54:20.108Z",
+      "lastAttemptAt": "2026-08-09T10:55:49.523Z",
       "lastError": "Discovery failed: HTTP 403"
     },
     {
@@ -968,7 +968,7 @@
       "url": "https://www.homedepot.com/p/Pennzoil-Platinum-SAE-5W-30-Full-Synthetic-Motor-Oil-5-Qt-550046126/300646438",
       "lastChecked": "2026-08-03T21:27:55.025Z",
       "refreshStatus": "failed",
-      "lastAttemptAt": "2026-08-08T10:54:20.108Z",
+      "lastAttemptAt": "2026-08-09T10:55:49.523Z",
       "lastError": "Discovery failed: HTTP 403"
     },
     {
@@ -987,7 +987,7 @@
       "url": "https://www.homedepot.com/p/Pennzoil-Platinum-SAE-5W-20-Full-Synthetic-Motor-Oil-5-Qt-550046122/300646492",
       "lastChecked": "2026-08-03T21:27:55.252Z",
       "refreshStatus": "failed",
-      "lastAttemptAt": "2026-08-08T10:54:20.108Z",
+      "lastAttemptAt": "2026-08-09T10:55:49.523Z",
       "lastError": "Discovery failed: HTTP 403"
     },
     {
@@ -1006,7 +1006,7 @@
       "url": "https://www.homedepot.com/p/Shell-Rotella-T6-Full-Synthetic-SAE-15W-40-Diesel-Motor-Oil-1-Gal-550050467/318718737",
       "lastChecked": "2026-08-03T21:27:55.298Z",
       "refreshStatus": "failed",
-      "lastAttemptAt": "2026-08-08T10:54:20.108Z",
+      "lastAttemptAt": "2026-08-09T10:55:49.523Z",
       "lastError": "Discovery failed: HTTP 403"
     },
     {
@@ -1025,7 +1025,7 @@
       "url": "https://www.homedepot.com/p/Pennzoil-Platinum-SAE-0W-20-Full-Synthetic-Motor-Oil-5-Qt-550046127/300646413",
       "lastChecked": "2026-08-03T21:27:55.558Z",
       "refreshStatus": "failed",
-      "lastAttemptAt": "2026-08-08T10:54:20.108Z",
+      "lastAttemptAt": "2026-08-09T10:55:49.523Z",
       "lastError": "Discovery failed: HTTP 403"
     },
     {
@@ -1044,7 +1044,7 @@
       "url": "https://www.homedepot.com/p/Pennzoil-Platinum-High-Mileage-SAE-5W-30-Full-Synthetic-Motor-Oil-5-Qt-550045195/300977537",
       "lastChecked": "2026-08-03T21:27:55.676Z",
       "refreshStatus": "failed",
-      "lastAttemptAt": "2026-08-08T10:54:20.108Z",
+      "lastAttemptAt": "2026-08-09T10:55:49.523Z",
       "lastError": "Discovery failed: HTTP 403"
     },
     {
@@ -1063,7 +1063,7 @@
       "url": "https://www.homedepot.com/p/Pennzoil-Platinum-SAE-10W-30-Full-Synthetic-Motor-Oil-5-Qt-550046205/300646487",
       "lastChecked": "2026-08-03T21:27:57.088Z",
       "refreshStatus": "failed",
-      "lastAttemptAt": "2026-08-08T10:54:20.108Z",
+      "lastAttemptAt": "2026-08-09T10:55:49.523Z",
       "lastError": "Discovery failed: HTTP 403"
     },
     {
@@ -1082,7 +1082,7 @@
       "url": "https://www.homedepot.com/p/EDGE-High-Mileage-5W-20-Advanced-Full-Synthetic-Motor-Oil-5-qt-15906D/318624582",
       "lastChecked": "2026-08-03T21:27:57.405Z",
       "refreshStatus": "failed",
-      "lastAttemptAt": "2026-08-08T10:54:20.108Z",
+      "lastAttemptAt": "2026-08-09T10:55:49.523Z",
       "lastError": "Discovery failed: HTTP 403"
     },
     {
@@ -1101,7 +1101,7 @@
       "url": "https://www.homedepot.com/p/sets/Pennzoil-High-Mileage-SAE-5W-30-Synthetic-Blend-Motor-Oil-5-Qt-and-1-Qt-Combo/342398517",
       "lastChecked": "2026-08-03T21:27:57.721Z",
       "refreshStatus": "failed",
-      "lastAttemptAt": "2026-08-08T10:54:20.108Z",
+      "lastAttemptAt": "2026-08-09T10:55:49.523Z",
       "lastError": "Discovery failed: HTTP 403"
     },
     {
@@ -1120,7 +1120,7 @@
       "url": "https://www.homedepot.com/p/CASTROL-EDGE-0W-20-Advanced-Full-Synthetic-Motor-Oil-5-qt-1597B2/318622665",
       "lastChecked": "2026-08-03T21:27:57.857Z",
       "refreshStatus": "failed",
-      "lastAttemptAt": "2026-08-08T10:54:20.108Z",
+      "lastAttemptAt": "2026-08-09T10:55:49.523Z",
       "lastError": "Discovery failed: HTTP 403"
     },
     {
@@ -1139,7 +1139,7 @@
       "url": "https://www.homedepot.com/p/Pennzoil-Ultra-Platinum-5W20-Motor-Oil-5-Qt-550045202/341066080",
       "lastChecked": "2026-08-03T21:27:58.485Z",
       "refreshStatus": "failed",
-      "lastAttemptAt": "2026-08-08T10:54:20.108Z",
+      "lastAttemptAt": "2026-08-09T10:55:49.523Z",
       "lastError": "Discovery failed: HTTP 403"
     },
     {
@@ -1158,7 +1158,7 @@
       "url": "https://www.homedepot.com/p/sets/Pennzoil-High-Mileage-SAE-5W-20-Synthetic-Blend-Motor-Oil-5-Qt-and-1-Qt-Combo/342398644",
       "lastChecked": "2026-08-03T21:27:58.912Z",
       "refreshStatus": "failed",
-      "lastAttemptAt": "2026-08-08T10:54:20.108Z",
+      "lastAttemptAt": "2026-08-09T10:55:49.523Z",
       "lastError": "Discovery failed: HTTP 403"
     },
     {
@@ -1177,7 +1177,7 @@
       "url": "https://www.homedepot.com/p/sets/Pennzoil-SAE-5W-20-Motor-Oil-Combo-5-Qt-and-1-Qt/342398526",
       "lastChecked": "2026-08-03T21:27:59.301Z",
       "refreshStatus": "failed",
-      "lastAttemptAt": "2026-08-08T10:54:20.108Z",
+      "lastAttemptAt": "2026-08-09T10:55:49.523Z",
       "lastError": "Discovery failed: HTTP 403"
     },
     {
@@ -1196,7 +1196,7 @@
       "url": "https://www.homedepot.com/p/sets/Pennzoil-High-Mileage-SAE-10W-30-Synthetic-Blend-Motor-Oil-1-Qt-and-5-Qt-Combo/342398610",
       "lastChecked": "2026-08-03T21:27:59.724Z",
       "refreshStatus": "failed",
-      "lastAttemptAt": "2026-08-08T10:54:20.108Z",
+      "lastAttemptAt": "2026-08-09T10:55:49.523Z",
       "lastError": "Discovery failed: HTTP 403"
     },
     {
@@ -1215,7 +1215,7 @@
       "url": "https://www.homedepot.com/p/sets/Pennzoil-High-Mileage-SAE-10W-40-Synthetic-Blend-Motor-Oil-1-qt-and-5-Qt-Combo/342398569",
       "lastChecked": "2026-08-03T21:27:59.898Z",
       "refreshStatus": "failed",
-      "lastAttemptAt": "2026-08-08T10:54:20.108Z",
+      "lastAttemptAt": "2026-08-09T10:55:49.523Z",
       "lastError": "Discovery failed: HTTP 403"
     },
     {
@@ -1234,7 +1234,7 @@
       "url": "https://www.homedepot.com/p/sets/Pennzoil-Full-Synthetic-SAE-5W-20-Motor-Oil-Combo-1-qt-and-5-qt/342402868",
       "lastChecked": "2026-08-03T21:28:00.070Z",
       "refreshStatus": "failed",
-      "lastAttemptAt": "2026-08-08T10:54:20.108Z",
+      "lastAttemptAt": "2026-08-09T10:55:49.523Z",
       "lastError": "Discovery failed: HTTP 403"
     },
     {
@@ -1253,7 +1253,7 @@
       "url": "https://www.homedepot.com/p/sets/Pennzoil-Full-Synthetic-SAE-0W-20-Motor-Oil-Combo-1-qt-and-5-qt/342402887",
       "lastChecked": "2026-08-03T21:28:00.366Z",
       "refreshStatus": "failed",
-      "lastAttemptAt": "2026-08-08T10:54:20.108Z",
+      "lastAttemptAt": "2026-08-09T10:55:49.523Z",
       "lastError": "Discovery failed: HTTP 403"
     },
     {
@@ -1272,7 +1272,7 @@
       "url": "https://www.homedepot.com/p/sets/Pennzoil-Full-Synthetic-SAE-5W-30-Motor-Oil-5-qt-and-1-qt-Combo/342402871",
       "lastChecked": "2026-08-03T21:28:00.490Z",
       "refreshStatus": "failed",
-      "lastAttemptAt": "2026-08-08T10:54:20.108Z",
+      "lastAttemptAt": "2026-08-09T10:55:49.523Z",
       "lastError": "Discovery failed: HTTP 403"
     },
     {
@@ -1291,7 +1291,7 @@
       "url": "https://www.homedepot.com/p/sets/Pennzoil-Platinum-SAE-5W-20-Full-Synthetic-Motor-Oil-Combo-1-Qt-and-5-Qt/342398544",
       "lastChecked": "2026-08-03T21:28:00.591Z",
       "refreshStatus": "failed",
-      "lastAttemptAt": "2026-08-08T10:54:20.108Z",
+      "lastAttemptAt": "2026-08-09T10:55:49.523Z",
       "lastError": "Discovery failed: HTTP 403"
     },
     {
@@ -1310,7 +1310,7 @@
       "url": "https://www.homedepot.com/p/sets/Pennzoil-Platinum-SAE-5W-30-Full-Synthetic-Motor-Oil-Combo-1-Qt-and-5-Qt/342402866",
       "lastChecked": "2026-08-03T21:28:01.164Z",
       "refreshStatus": "failed",
-      "lastAttemptAt": "2026-08-08T10:54:20.108Z",
+      "lastAttemptAt": "2026-08-09T10:55:49.523Z",
       "lastError": "Discovery failed: HTTP 403"
     },
     {
@@ -1329,7 +1329,7 @@
       "url": "https://www.homedepot.com/p/sets/Pennzoil-Platinum-SAE-0W-20-Full-Synthetic-Motor-Oil-1-Qt-and-5-Qt-Combo/342398600",
       "lastChecked": "2026-08-03T21:28:01.256Z",
       "refreshStatus": "failed",
-      "lastAttemptAt": "2026-08-08T10:54:20.108Z",
+      "lastAttemptAt": "2026-08-09T10:55:49.523Z",
       "lastError": "Discovery failed: HTTP 403"
     },
     {
@@ -1348,7 +1348,7 @@
       "url": "https://www.homedepot.com/p/Shell-Rotella-T4-Triple-Protection-SAE-15W-40-Diesel-Motor-Oil-2-5-Gal-550045127/300464323",
       "lastChecked": "2026-08-03T21:28:01.278Z",
       "refreshStatus": "failed",
-      "lastAttemptAt": "2026-08-08T10:54:20.108Z",
+      "lastAttemptAt": "2026-08-09T10:55:49.523Z",
       "lastError": "Discovery failed: HTTP 403"
     },
     {
@@ -1367,7 +1367,7 @@
       "url": "https://www.homedepot.com/p/Pennzoil-Platinum-SAE-5W-20-Full-Synthetic-Motor-Oil-5-qt-Case-of-3-550046122/300707479",
       "lastChecked": "2026-08-03T21:28:02.050Z",
       "refreshStatus": "failed",
-      "lastAttemptAt": "2026-08-08T10:54:20.108Z",
+      "lastAttemptAt": "2026-08-09T10:55:49.523Z",
       "lastError": "Discovery failed: HTTP 403"
     },
     {
@@ -1386,7 +1386,7 @@
       "url": "https://www.homedepot.com/p/Shell-Rotella-T6-Full-Synthetic-SAE-5W-40-Diesel-Motor-Oil-2-5-Gal-550046215/329963106",
       "lastChecked": "2026-08-03T21:28:02.439Z",
       "refreshStatus": "failed",
-      "lastAttemptAt": "2026-08-08T10:54:20.108Z",
+      "lastAttemptAt": "2026-08-09T10:55:49.523Z",
       "lastError": "Discovery failed: HTTP 403"
     },
     {
@@ -1405,7 +1405,7 @@
       "url": "https://www.homedepot.com/p/Shell-Rotella-T4-Triple-Protection-SAE-15W-40-Diesel-Motor-Oil-1-Gal-Case-of-3-550045126/300389697",
       "lastChecked": "2026-08-03T21:28:02.667Z",
       "refreshStatus": "failed",
-      "lastAttemptAt": "2026-08-08T10:54:20.108Z",
+      "lastAttemptAt": "2026-08-09T10:55:49.523Z",
       "lastError": "Discovery failed: HTTP 403"
     },
     {
@@ -1424,7 +1424,7 @@
       "url": "https://www.homedepot.com/p/Shell-Rotella-2-5-gal-Rotella-T5-Triple-Protection-15W-40-Diesel-Engine-Oil-550046213/333950988",
       "lastChecked": "2026-08-03T21:28:02.788Z",
       "refreshStatus": "failed",
-      "lastAttemptAt": "2026-08-08T10:54:20.108Z",
+      "lastAttemptAt": "2026-08-09T10:55:49.523Z",
       "lastError": "Discovery failed: HTTP 403"
     },
     {
@@ -1443,7 +1443,7 @@
       "url": "https://www.homedepot.com/p/Miles-Lubricants-Miles-Mil-Gear-S-100-Advanced-Technology-Pao-Based-Industrial-Gear-Oil-16-oz-12-Case-MSF1404007/305461281",
       "lastChecked": "2026-08-03T21:28:03.869Z",
       "refreshStatus": "failed",
-      "lastAttemptAt": "2026-08-08T10:54:20.108Z",
+      "lastAttemptAt": "2026-08-09T10:55:49.523Z",
       "lastError": "Discovery failed: HTTP 403"
     },
     {
@@ -1462,7 +1462,7 @@
       "url": "https://www.homedepot.com/p/Shell-Rotella-T6-Full-Synthetic-SAE-15W-40-Diesel-Motor-Oil-1-Gal-Case-of-3-550050467/318719011",
       "lastChecked": "2026-08-03T21:28:03.896Z",
       "refreshStatus": "failed",
-      "lastAttemptAt": "2026-08-08T10:54:20.108Z",
+      "lastAttemptAt": "2026-08-09T10:55:49.523Z",
       "lastError": "Discovery failed: HTTP 403"
     },
     {
@@ -1481,7 +1481,7 @@
       "url": "https://www.homedepot.com/p/Miles-Lubricants-MILESYN-SB-5W30-GF-6-SN-PLUS-5-GAL-PAIL-M00100203/305236643",
       "lastChecked": "2026-08-03T21:28:04.069Z",
       "refreshStatus": "failed",
-      "lastAttemptAt": "2026-08-08T10:54:20.108Z",
+      "lastAttemptAt": "2026-08-09T10:55:49.523Z",
       "lastError": "Discovery failed: HTTP 403"
     },
     {
@@ -1500,7 +1500,7 @@
       "url": "https://www.homedepot.com/p/Pennzoil-Platinum-SAE-0W-20-Full-Synthetic-Motor-Oil-5-qt-Case-of-3-550046127/300694607",
       "lastChecked": "2026-08-03T21:28:04.702Z",
       "refreshStatus": "failed",
-      "lastAttemptAt": "2026-08-08T10:54:20.108Z",
+      "lastAttemptAt": "2026-08-09T10:55:49.523Z",
       "lastError": "Discovery failed: HTTP 403"
     },
     {
@@ -1519,7 +1519,7 @@
       "url": "https://www.homedepot.com/p/Miles-Lubricants-Miles-Hisyn-Turbo-100-16-oz-Advanced-Technology-Pao-Based-Turbine-Oil-Pack-of-12-MSF1304007/305461538",
       "lastChecked": "2026-08-03T21:28:04.704Z",
       "refreshStatus": "failed",
-      "lastAttemptAt": "2026-08-08T10:54:20.108Z",
+      "lastAttemptAt": "2026-08-09T10:55:49.523Z",
       "lastError": "Discovery failed: HTTP 403"
     },
     {
@@ -1538,7 +1538,7 @@
       "url": "https://www.homedepot.com/p/Miles-Lubricants-Miles-Fg-Mil-Gear-S-100-16-oz-Full-Synthetic-Pao-Based-Food-Grade-Gear-Oil-Pack-of-12-MSF1433007/305461677",
       "lastChecked": "2026-08-03T21:28:05.365Z",
       "refreshStatus": "failed",
-      "lastAttemptAt": "2026-08-08T10:54:20.108Z",
+      "lastAttemptAt": "2026-08-09T10:55:49.523Z",
       "lastError": "Discovery failed: HTTP 403"
     },
     {
@@ -1557,7 +1557,7 @@
       "url": "https://www.homedepot.com/p/Pennzoil-Platinum-SAE-5W-30-Full-Synthetic-Motor-Oil-5-qt-Case-of-3-550046126/300698554",
       "lastChecked": "2026-08-03T21:28:05.756Z",
       "refreshStatus": "failed",
-      "lastAttemptAt": "2026-08-08T10:54:20.108Z",
+      "lastAttemptAt": "2026-08-09T10:55:49.523Z",
       "lastError": "Discovery failed: HTTP 403"
     },
     {
@@ -1576,7 +1576,7 @@
       "url": "https://www.homedepot.com/p/Miles-Lubricants-Milesyn-SB-5W20-API-SP-GF-6-5-Gal-Synthetic-Blend-Motor-Oil-Pail-M00100103/305133398",
       "lastChecked": "2026-08-03T21:28:06.132Z",
       "refreshStatus": "failed",
-      "lastAttemptAt": "2026-08-08T10:54:20.108Z",
+      "lastAttemptAt": "2026-08-09T10:55:49.523Z",
       "lastError": "Discovery failed: HTTP 403"
     },
     {
@@ -1595,7 +1595,7 @@
       "url": "https://www.homedepot.com/p/Miles-Lubricants-Miles-Ultihyd-Bio-46-Advanced-Technology-Pao-Based-Bio-Hydraulic-16-oz-12-Case-MSF1201007/305461736",
       "lastChecked": "2026-08-03T21:28:06.145Z",
       "refreshStatus": "failed",
-      "lastAttemptAt": "2026-08-08T10:54:20.108Z",
+      "lastAttemptAt": "2026-08-09T10:55:49.523Z",
       "lastError": "Discovery failed: HTTP 403"
     },
     {
@@ -1614,7 +1614,7 @@
       "url": "https://www.homedepot.com/p/Miles-Lubricants-Milesyn-SXR-10W30-API-SP-GF-6-5-Gal-Full-Synthetic-Motor-Oil-Pail-MSF100703/305514512",
       "lastChecked": "2026-08-03T21:28:06.445Z",
       "refreshStatus": "failed",
-      "lastAttemptAt": "2026-08-08T10:54:20.108Z",
+      "lastAttemptAt": "2026-08-09T10:55:49.523Z",
       "lastError": "Discovery failed: HTTP 403"
     },
     {
@@ -1633,7 +1633,7 @@
       "url": "https://www.homedepot.com/p/Miles-Lubricants-Miles-Fg-Comp-Oil-68-16-oz-Food-Grade-Synthetic-Rotary-Compressor-Fluid-H-1-Registered-Pack-of-12-MSF1543007/305461335",
       "lastChecked": "2026-08-03T21:28:06.731Z",
       "refreshStatus": "failed",
-      "lastAttemptAt": "2026-08-08T10:54:20.108Z",
+      "lastAttemptAt": "2026-08-09T10:55:49.523Z",
       "lastError": "Discovery failed: HTTP 403"
     },
     {
@@ -1652,7 +1652,7 @@
       "url": "https://www.homedepot.com/p/Miles-Lubricants-Miles-Fg-Mil-Gear-S-68-Full-Synthethic-Pao-Based-Food-Grade-Gear-Oil-16-Oz-12-Case-MSF1432007/305461703",
       "lastChecked": "2026-08-03T21:28:06.845Z",
       "refreshStatus": "failed",
-      "lastAttemptAt": "2026-08-08T10:54:20.108Z",
+      "lastAttemptAt": "2026-08-09T10:55:49.523Z",
       "lastError": "Discovery failed: HTTP 403"
     },
     {
@@ -1671,7 +1671,7 @@
       "url": "https://www.homedepot.com/p/Miles-Lubricants-Milesyn-SXR-15W-40-API-CK-4-5-Gal-Full-Synthetic-Diesel-Motor-Oil-Pail-MSF200203/305238632",
       "lastChecked": "2026-08-03T21:28:07.251Z",
       "refreshStatus": "failed",
-      "lastAttemptAt": "2026-08-08T10:54:20.108Z",
+      "lastAttemptAt": "2026-08-09T10:55:49.523Z",
       "lastError": "Discovery failed: HTTP 403"
     },
     {
@@ -1690,7 +1690,7 @@
       "url": "https://www.homedepot.com/p/Miles-Lubricants-Milesyn-SB-15W-40-API-CK-4-5-Gal-Synthetic-Blend-Diesel-Motor-Oil-Pail-MSF200103/305238438",
       "lastChecked": "2026-08-03T21:28:07.496Z",
       "refreshStatus": "failed",
-      "lastAttemptAt": "2026-08-08T10:54:20.108Z",
+      "lastAttemptAt": "2026-08-09T10:55:49.523Z",
       "lastError": "Discovery failed: HTTP 403"
     },
     {
@@ -1709,7 +1709,7 @@
       "url": "https://www.homedepot.com/p/Miles-Lubricants-Miles-Hydro-Syn-46-1-gal-Advanced-Technology-Pao-Based-Bio-Hydraulic-Pack-of-4-MSF1200205/305461838",
       "lastChecked": "2026-08-03T21:28:08.772Z",
       "refreshStatus": "failed",
-      "lastAttemptAt": "2026-08-08T10:54:20.108Z",
+      "lastAttemptAt": "2026-08-09T10:55:49.523Z",
       "lastError": "Discovery failed: HTTP 403"
     },
     {
@@ -1728,7 +1728,7 @@
       "url": "https://www.homedepot.com/p/Miles-Lubricants-Miles-Hisyn-Turbo-68-1-Gal-Advanced-Technology-Pao-Based-Turbine-Oil-Pack-of-4-MSF1303005/305461501",
       "lastChecked": "2026-08-03T21:28:08.814Z",
       "refreshStatus": "failed",
-      "lastAttemptAt": "2026-08-08T10:54:20.108Z",
+      "lastAttemptAt": "2026-08-09T10:55:49.523Z",
       "lastError": "Discovery failed: HTTP 403"
     },
     {
@@ -1747,7 +1747,7 @@
       "url": "https://www.homedepot.com/p/Miles-Lubricants-Miles-Hisyn-Turbo-32-1-Gal-Advanced-Technology-Pao-Based-Turbine-Oil-Pack-of-4-MSF1301005/305461509",
       "lastChecked": "2026-08-03T21:28:08.853Z",
       "refreshStatus": "failed",
-      "lastAttemptAt": "2026-08-08T10:54:20.108Z",
+      "lastAttemptAt": "2026-08-09T10:55:49.523Z",
       "lastError": "Discovery failed: HTTP 403"
     },
     {
@@ -1766,7 +1766,7 @@
       "url": "https://www.homedepot.com/p/Miles-Lubricants-Milesyn-SXR-HD-5W-40-CK-4-5-Gal-Full-Synthetic-Heavy-Duty-Diesel-Engine-Oil-Pail-M00200499/305461867",
       "lastChecked": "2026-08-03T21:28:08.953Z",
       "refreshStatus": "failed",
-      "lastAttemptAt": "2026-08-08T10:54:20.108Z",
+      "lastAttemptAt": "2026-08-09T10:55:49.523Z",
       "lastError": "Discovery failed: HTTP 403"
     },
     {
@@ -1785,7 +1785,7 @@
       "url": "https://www.homedepot.com/p/Miles-Lubricants-Miles-Mil-Gear-S-220-Advanced-Technology-Pao-Based-Industrial-Gear-Oil-4-x-1-Gal-Case-MSF1406005/305461668",
       "lastChecked": "2026-08-03T21:28:09.581Z",
       "refreshStatus": "failed",
-      "lastAttemptAt": "2026-08-08T10:54:20.108Z",
+      "lastAttemptAt": "2026-08-09T10:55:49.523Z",
       "lastError": "Discovery failed: HTTP 403"
     },
     {
@@ -1804,7 +1804,7 @@
       "url": "https://www.homedepot.com/p/Miles-Lubricants-Miles-Hydro-5-Gal-Syn-32-Advanced-Technology-Pao-Based-Bio-Hydraulic-Pail-MSF1200103/305461815",
       "lastChecked": "2026-08-03T21:28:09.953Z",
       "refreshStatus": "failed",
-      "lastAttemptAt": "2026-08-08T10:54:20.108Z",
+      "lastAttemptAt": "2026-08-09T10:55:49.523Z",
       "lastError": "Discovery failed: HTTP 403"
     },
     {
@@ -1823,7 +1823,7 @@
       "url": "https://www.homedepot.com/p/Miles-Lubricants-Miles-Mil-Gear-S-75W90-Advanced-Technology-Pao-Based-Gears-Heavy-Duty-4-x-1-Gal-Case-MSF2006607/305461542",
       "lastChecked": "2026-08-03T21:28:10.118Z",
       "refreshStatus": "failed",
-      "lastAttemptAt": "2026-08-08T10:54:20.108Z",
+      "lastAttemptAt": "2026-08-09T10:55:49.523Z",
       "lastError": "Discovery failed: HTTP 403"
     },
     {
@@ -1842,7 +1842,7 @@
       "url": "https://www.homedepot.com/p/Miles-Lubricants-Miles-Mil-Gear-S-80W140-Advanced-Technology-Pao-Based-Gears-Heavy-Duty-4-x-1-Gal-Case-MSF2006707/305461545",
       "lastChecked": "2026-08-03T21:28:10.552Z",
       "refreshStatus": "failed",
-      "lastAttemptAt": "2026-08-08T10:54:20.108Z",
+      "lastAttemptAt": "2026-08-09T10:55:49.523Z",
       "lastError": "Discovery failed: HTTP 403"
     },
     {
@@ -1861,7 +1861,7 @@
       "url": "https://www.homedepot.com/p/Miles-Lubricants-Miles-Mil-Gear-S-320-Advanced-Technology-Pao-Based-Industrial-Gear-Oil-4-x-1-Gal-Case-MSF1407005/305461672",
       "lastChecked": "2026-08-03T21:28:10.562Z",
       "refreshStatus": "failed",
-      "lastAttemptAt": "2026-08-08T10:54:20.108Z",
+      "lastAttemptAt": "2026-08-09T10:55:49.523Z",
       "lastError": "Discovery failed: HTTP 403"
     },
     {
@@ -1880,7 +1880,7 @@
       "url": "https://www.homedepot.com/p/Miles-Lubricants-Miles-Mil-Gear-S-150-Advanced-Technology-Pao-Based-Industrial-Gear-Oil-4-x-1-Gal-Case-MSF1405005/305461680",
       "lastChecked": "2026-08-03T21:28:10.710Z",
       "refreshStatus": "failed",
-      "lastAttemptAt": "2026-08-08T10:54:20.108Z",
+      "lastAttemptAt": "2026-08-09T10:55:49.523Z",
       "lastError": "Discovery failed: HTTP 403"
     },
     {
@@ -1899,7 +1899,7 @@
       "url": "https://www.homedepot.com/p/Miles-Lubricants-Miles-Mil-Gear-S-460-Advanced-Technology-Pao-Based-Industrial-Gear-Oil-x-1-Gal-Case-MSF1408005/305461692",
       "lastChecked": "2026-08-03T21:28:10.731Z",
       "refreshStatus": "failed",
-      "lastAttemptAt": "2026-08-08T10:54:20.108Z",
+      "lastAttemptAt": "2026-08-09T10:55:49.523Z",
       "lastError": "Discovery failed: HTTP 403"
     },
     {
@@ -1918,7 +1918,7 @@
       "url": "https://www.homedepot.com/p/Miles-Lubricants-Miles-Hisyn-Turbo-46-5-Gal-Advanced-Technology-Pao-Based-Turbine-Oil-MSF1302003/305461481",
       "lastChecked": "2026-08-03T21:28:11.271Z",
       "refreshStatus": "failed",
-      "lastAttemptAt": "2026-08-08T10:54:20.108Z",
+      "lastAttemptAt": "2026-08-09T10:55:49.523Z",
       "lastError": "Discovery failed: HTTP 403"
     },
     {
@@ -1937,7 +1937,7 @@
       "url": "https://www.homedepot.com/p/Miles-Lubricants-Miles-Hisyn-Turbo-68-Advanced-Technology-Pao-Based-Turbine-Oil-5-gal-Pail-MSF1303003/305461517",
       "lastChecked": "2026-08-03T21:28:11.340Z",
       "refreshStatus": "failed",
-      "lastAttemptAt": "2026-08-08T10:54:20.108Z",
+      "lastAttemptAt": "2026-08-09T10:55:49.523Z",
       "lastError": "Discovery failed: HTTP 403"
     },
     {
@@ -1956,7 +1956,7 @@
       "url": "https://www.homedepot.com/p/Miles-Lubricants-Miles-Mil-Gear-S-75W90-Advanced-Technology-Pao-Based-Gears-Heavy-Duty-5-Gal-Pail-MSF2006603/305461551",
       "lastChecked": "2026-08-03T21:28:12.109Z",
       "refreshStatus": "failed",
-      "lastAttemptAt": "2026-08-08T10:54:20.108Z",
+      "lastAttemptAt": "2026-08-09T10:55:49.523Z",
       "lastError": "Discovery failed: HTTP 403"
     },
     {
@@ -1975,7 +1975,7 @@
       "url": "https://www.homedepot.com/p/Miles-Lubricants-Miles-Mil-5-Gal-Gear-S-220-Advanced-Technology-Pao-Based-Industrial-Gear-Oil-Pail-MSF1406003/305461288",
       "lastChecked": "2026-08-03T21:28:12.551Z",
       "refreshStatus": "failed",
-      "lastAttemptAt": "2026-08-08T10:54:20.108Z",
+      "lastAttemptAt": "2026-08-09T10:55:49.523Z",
       "lastError": "Discovery failed: HTTP 403"
     },
     {
@@ -1994,7 +1994,7 @@
       "url": "https://www.homedepot.com/p/Miles-Lubricants-Miles-Mil-5-Gal-Gear-S-150-Advanced-Technology-Pao-Based-Industrial-Gear-Oil-Pail-MSF1405003/305461286",
       "lastChecked": "2026-08-03T21:28:12.557Z",
       "refreshStatus": "failed",
-      "lastAttemptAt": "2026-08-08T10:54:20.108Z",
+      "lastAttemptAt": "2026-08-09T10:55:49.523Z",
       "lastError": "Discovery failed: HTTP 403"
     },
     {
@@ -2013,7 +2013,7 @@
       "url": "https://www.homedepot.com/p/Miles-Lubricants-Miles-Mil-5-Gal-Gear-S-320-Advanced-Technology-Pao-Based-Industrial-Gear-Oil-Pail-MSF1407003/305461298",
       "lastChecked": "2026-08-03T21:28:12.559Z",
       "refreshStatus": "failed",
-      "lastAttemptAt": "2026-08-08T10:54:20.108Z",
+      "lastAttemptAt": "2026-08-09T10:55:49.523Z",
       "lastError": "Discovery failed: HTTP 403"
     },
     {
@@ -2032,7 +2032,7 @@
       "url": "https://www.homedepot.com/p/Miles-Lubricants-Miles-Fg-Mil-Gear-S-100-Full-Synthethic-Pao-Based-Food-Grade-Gear-Oil-5-Gal-Pail-MSF2012003/305461728",
       "lastChecked": "2026-08-03T21:28:13.035Z",
       "refreshStatus": "failed",
-      "lastAttemptAt": "2026-08-08T10:54:20.108Z",
+      "lastAttemptAt": "2026-08-09T10:55:49.523Z",
       "lastError": "Discovery failed: HTTP 403"
     },
     {
@@ -2051,7 +2051,7 @@
       "url": "https://www.homedepot.com/p/Miles-Lubricants-Miles-Mil-5-Gal-Gear-S-680-Advanced-Technology-Pao-Based-Industrial-Gear-Oil-Pail-MSF1409003/305461294",
       "lastChecked": "2026-08-03T21:28:13.246Z",
       "refreshStatus": "failed",
-      "lastAttemptAt": "2026-08-08T10:54:20.108Z",
+      "lastAttemptAt": "2026-08-09T10:55:49.523Z",
       "lastError": "Discovery failed: HTTP 403"
     },
     {
@@ -2070,7 +2070,7 @@
       "url": "https://www.homedepot.com/p/Miles-Lubricants-Miles-FG-5-Gal-Chain-Lube-HT-220-Pail-MSF2023003/305461405",
       "lastChecked": "2026-08-03T21:28:13.328Z",
       "refreshStatus": "failed",
-      "lastAttemptAt": "2026-08-08T10:54:20.108Z",
+      "lastAttemptAt": "2026-08-09T10:55:49.523Z",
       "lastError": "Discovery failed: HTTP 403"
     },
     {
@@ -2089,7 +2089,7 @@
       "url": "https://www.homedepot.com/p/Miles-Lubricants-Miles-FG-5-Gal-Chain-Lube-HT-100-Pail-MSF2021003/305461384",
       "lastChecked": "2026-08-03T21:28:13.389Z",
       "refreshStatus": "failed",
-      "lastAttemptAt": "2026-08-08T10:54:20.108Z",
+      "lastAttemptAt": "2026-08-09T10:55:49.523Z",
       "lastError": "Discovery failed: HTTP 403"
     },
     {
@@ -2108,7 +2108,7 @@
       "url": "https://www.homedepot.com/p/Miles-Lubricants-Miles-Fg-Mil-Gear-S-150-Full-Synthethic-Pao-Based-Food-Grade-Gear-Oil-5-Gal-Pail-MSF2013003/305461731",
       "lastChecked": "2026-08-03T21:28:14.476Z",
       "refreshStatus": "failed",
-      "lastAttemptAt": "2026-08-08T10:54:20.108Z",
+      "lastAttemptAt": "2026-08-09T10:55:49.523Z",
       "lastError": "Discovery failed: HTTP 403"
     },
     {
@@ -2127,7 +2127,7 @@
       "url": "https://www.homedepot.com/p/Miles-Lubricants-Miles-Nimbus-Pg-220-5-Gal-Pag-Based-Fluid-Polyglycol-Industrial-Gear-Oil-MSF1422003/305461525",
       "lastChecked": "2026-08-03T21:28:14.525Z",
       "refreshStatus": "failed",
-      "lastAttemptAt": "2026-08-08T10:54:20.108Z",
+      "lastAttemptAt": "2026-08-09T10:55:49.523Z",
       "lastError": "Discovery failed: HTTP 403"
     },
     {
@@ -2146,7 +2146,7 @@
       "url": "https://www.homedepot.com/p/Miles-Lubricants-Miles-Syn-Gear-S-Hd-460-5-Gal-Advanced-Technology-Pao-Based-Gears-Heavy-Duty-MSF1414003/305461644",
       "lastChecked": "2026-08-03T21:28:14.607Z",
       "refreshStatus": "failed",
-      "lastAttemptAt": "2026-08-08T10:54:20.108Z",
+      "lastAttemptAt": "2026-08-09T10:55:49.523Z",
       "lastError": "Discovery failed: HTTP 403"
     },
     {
@@ -2165,7 +2165,7 @@
       "url": "https://www.homedepot.com/p/Miles-Lubricants-Miles-Nimbus-Pg-320-Pag-Based-Fluid-Polyglycol-Industrial-Gear-Oil-5-Gallon-Pail-MSF1423003/305461530",
       "lastChecked": "2026-08-03T21:28:14.744Z",
       "refreshStatus": "failed",
-      "lastAttemptAt": "2026-08-08T10:54:20.108Z",
+      "lastAttemptAt": "2026-08-09T10:55:49.523Z",
       "lastError": "Discovery failed: HTTP 403"
     },
     {
@@ -2184,7 +2184,7 @@
       "url": "https://www.homedepot.com/p/Miles-Lubricants-Milesyn-SB-10W30-API-SP-GF-6-55-Gal-Synthetic-Blend-Motor-Oil-Drum-M00100301/305236692",
       "lastChecked": "2026-08-03T21:28:15.151Z",
       "refreshStatus": "failed",
-      "lastAttemptAt": "2026-08-08T10:54:20.108Z",
+      "lastAttemptAt": "2026-08-09T10:55:49.523Z",
       "lastError": "Discovery failed: HTTP 403"
     },
     {
@@ -2203,7 +2203,7 @@
       "url": "https://www.homedepot.com/p/Miles-Lubricants-MILES-CHAIN-LUBE-HT-170-4-x-1-Gal-Case-MSF2062005/305461780",
       "lastChecked": "2026-08-03T21:28:15.193Z",
       "refreshStatus": "failed",
-      "lastAttemptAt": "2026-08-08T10:54:20.108Z",
+      "lastAttemptAt": "2026-08-09T10:55:49.523Z",
       "lastError": "Discovery failed: HTTP 403"
     },
     {
@@ -2222,7 +2222,7 @@
       "url": "https://www.homedepot.com/p/Miles-Lubricants-Milesyn-SB-5W20-API-SP-GF-6-55-Gal-Synthetic-Blend-Motor-Oil-Drum-M00100101/305236546",
       "lastChecked": "2026-08-03T21:28:15.399Z",
       "refreshStatus": "failed",
-      "lastAttemptAt": "2026-08-08T10:54:20.108Z",
+      "lastAttemptAt": "2026-08-09T10:55:49.523Z",
       "lastError": "Discovery failed: HTTP 403"
     },
     {
@@ -2241,7 +2241,7 @@
       "url": "https://www.homedepot.com/p/Miles-Lubricants-Milesyn-SB-10W40-API-SP-GF-6-55-Gal-Synthetic-Blend-Motor-Oil-Drum-M00100401/305514511",
       "lastChecked": "2026-08-03T21:28:15.849Z",
       "refreshStatus": "failed",
-      "lastAttemptAt": "2026-08-08T10:54:20.108Z",
+      "lastAttemptAt": "2026-08-09T10:55:49.523Z",
       "lastError": "Discovery failed: HTTP 403"
     },
     {
@@ -2260,7 +2260,7 @@
       "url": "https://www.homedepot.com/p/Miles-Lubricants-Milesyn-SB-5W30-API-SP-GF-6-55-Gal-Synthetic-Blend-Motor-Oil-Drum-M00100201/305236655",
       "lastChecked": "2026-08-03T21:28:15.883Z",
       "refreshStatus": "failed",
-      "lastAttemptAt": "2026-08-08T10:54:20.108Z",
+      "lastAttemptAt": "2026-08-09T10:55:49.523Z",
       "lastError": "Discovery failed: HTTP 403"
     },
     {
@@ -2279,7 +2279,7 @@
       "url": "https://www.homedepot.com/p/Miles-Lubricants-All-Spec-15W-40-API-CK-4-55-Gal-Heavy-Duty-Diesel-Motor-Oil-Drum-M00200201/305238525",
       "lastChecked": "2026-08-03T21:28:16.598Z",
       "refreshStatus": "failed",
-      "lastAttemptAt": "2026-08-08T10:54:20.108Z",
+      "lastAttemptAt": "2026-08-09T10:55:49.523Z",
       "lastError": "Discovery failed: HTTP 403"
     }
   ],
@@ -2886,7 +2886,7 @@
     }
   ],
   "collection": {
-    "attemptedAt": "2026-08-08T10:54:20.108Z",
+    "attemptedAt": "2026-08-09T10:55:49.523Z",
     "succeeded": 0,
     "failed": 120,
     "retained": 120,
