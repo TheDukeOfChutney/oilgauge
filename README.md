@@ -22,4 +22,35 @@ npm run collect
 
 Exact product URLs can still be added under the optional `products` array, but the Home Depot catalog no longer depends on a manually maintained seed list.
 
+## Collect from a residential connection with Podman
+
+The collector can run as a one-shot container on a home server. Requests then originate from the server's residential connection, while the public frontend can remain hosted separately.
+
+Build the image and run the collector from the repository root:
+
+```bash
+podman compose build collector
+podman compose run --rm collector
+```
+
+The bind mount writes results back to the checkout at:
+
+- `public/discovery.json`
+- `public/offers.json`
+
+Inspect the result before publishing it:
+
+```bash
+git diff -- public/discovery.json public/offers.json
+```
+
+The container runs Node 22 and needs no npm install because the collector uses only Node's built-in APIs. `userns_mode: keep-id` makes files written through Podman's bind mount belong to the host user. The `:Z` mount option also makes the bind mount work on SELinux hosts such as Rocky Linux.
+
+To run without Compose:
+
+```bash
+podman build -t oilgauge-collector -f Containerfile .
+podman run --rm --userns=keep-id -v "$(pwd)/public:/app/public:Z" oilgauge-collector
+```
+
 The included GitHub Actions workflow runs daily and on manual request. It commits the refreshed feed after collection. The static frontend can be deployed now; later self-hosting can reuse the collector while replacing JSON with SQLite and an API.
